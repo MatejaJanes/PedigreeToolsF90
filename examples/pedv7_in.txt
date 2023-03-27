@@ -1,0 +1,8 @@
+lab_ped_raw.csv ! (unordered) pedigree mating list, input file
+0               ! header lines to skip in input file
+lab             ! tag for output files
+1               ! missing birth records
+1               ! selfings
+1               ! mixed use parents
+1               ! multiple record incompatibilities
+1               ! self parenting

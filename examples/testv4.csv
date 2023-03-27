@@ -1,0 +1,8 @@
+a,b,c,1
+d,e,f,2
+g,a,d,1
+h,a,d,2
+i,g,h,1
+j,g,h,2
+b,i,j,1
+c,i,j,2
