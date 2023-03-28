@@ -10,7 +10,7 @@ inquire(file='colleau_in.txt', exist=iask)
 if(.not.iask) stop '... input file colleau_in.txt does not exist'
 open(unit=10,file='colleau_in.txt')
 read(10,*) atoken; atoken=adjustl(atoken)
-ifile=fname(atoken,'meluo','pedf','csv')
+ifile=fname(atoken,'wmlv5','pedf','csv')
 afile=fname(atoken,'colle','actv','csv')
 open(unit=14,file=fname(atoken,'colle','log','txt'))
 inquire(file=ifile, exist=iask); inquire(file=afile, exist=jask);
